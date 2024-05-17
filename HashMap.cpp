@@ -15,7 +15,7 @@ HashMap::~HashMap()
 {
     delete[] table;
 }
-
+//Hash function//
 int HashMap::hashFunction(int key)
 {
     return key % capacity;
